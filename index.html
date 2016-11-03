@@ -139,59 +139,6 @@
       <div class="body-wrap">
         
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/28/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      <a href="/2016/10/28/hello-world/" class="archive-article-date">
-  	<time datetime="2016-10-28T01:16:20.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-28</time>
-</a>
-      
-      
-
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-
-
-  
     <article id="post-Mac使用Github+Hexo搭建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -210,148 +157,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Mac使用Github-Hexo搭建个人博客"><a href="#Mac使用Github-Hexo搭建个人博客" class="headerlink" title="Mac使用Github+Hexo搭建个人博客"></a>Mac使用Github+Hexo搭建个人博客</h3><hr>
-<h4 id="1-准备工具"><a href="#1-准备工具" class="headerlink" title="1. 准备工具"></a>1. 准备工具</h4><p>Git、Github、Node.js、Hexo</p>
+        <h4 id="1-准备工具"><a href="#1-准备工具" class="headerlink" title="1. 准备工具"></a>1. 准备工具</h4><p>Git、Github、Node.js、Hexo</p>
 <h4 id="2-Git与Github"><a href="#2-Git与Github" class="headerlink" title="2.Git与Github"></a>2.Git与Github</h4><p>​    Git是一款免费、开源的的分布式版本控制系统，而Github提供基于Git的版本</p>
-<p>​    托管服务，初学可参考<a href="https://zhuanlan.zhihu.com/stormzhang?topic=GitHub" target="_blank" rel="external">AndroidDeveloper</a>.<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的官方网站</a></p>
-<blockquote>
-<p><strong>安装Git</strong></p>
-</blockquote>
-<p>​    在Mac OS X上安装Git有两种方法：</p>
-<ul>
-<li><p>安装Homebrew,安装操作均在终端命令中执行完成，安装教程可参考<a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a>，网站语言可选简体中文</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-01.png" alt=""></p>
-</li>
-</ul>
-<ul>
-<li>安装Xcode,Xcode是Apple官方IDE，集成了Git，低版本没有默认安装，需要在设置中下载安装，而笔者使用的MacOS Sierra支持Xcode 8.0，默认安装Git，只需要在终端输入git查看是否安装成功</li>
-<li><code>$ git</code></li>
-<li><img src="http://og029dfuk.bkt.clouddn.com/blog1-02.png" alt=""></li>
-</ul>
-<p>  <a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank" rel="external">Git常用命令清单</a></p>
-<blockquote>
-<p><strong>使用Github</strong></p>
-</blockquote>
-<ul>
-<li><p>首先注册<a href="https://github.com/" target="_blank" rel="external">Github</a>账号,按照一般注册流程进行注册，然后新建仓库，仓库名称为username.github.io</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-03.png" alt=""></p>
-</li>
-<li><p>建立好仓库后，为了能够在本地使用Git管理Github上的项目，需要进行一些配置，一般配置SSH key，生成秘钥并把公钥黏贴到Github</p>
-</li>
-<li><p>Mac默认安装了SSH，在终端输入SSH如果出现下图则说明已经安装了SSH</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-04ssh.png" alt=""></p>
-</li>
-<li><p>输入 ssh-keygen-t rsa ,即指定rsa算法生成秘钥，连续按三次回车键（不需要输入密码），就会生成两个文件 id_rsa 和 id_rsa.pub ,其中 id_rsa 是秘钥，id_rad.pub 是公钥。这两个文件默认生成目录是 ~/.ssh,要查看需要开启隐藏文件，然后把 id_rad.pub 的内容黏贴到Github上即可授权成功</p>
-<p><code>$ ssh-keygen-t rsa</code></p>
-<p>查看秘钥可以使用<a href="http://www.sublimetext.com/" target="_blank" rel="external">sublime text 2</a>,拖拽文件夹IDE即可打开复制</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-05.png" alt=""></p>
-<p>github操作顺序：</p>
-<p><code>Settings — SSH and GPG keys — New SSH key — 粘贴 — Add SHH key</code></p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-06.png" alt=""></p>
-<p>生成秘钥时如需更改文件名称，一次回车后输入文件名称，继续回车即可</p>
-</li>
-<li><p>SSH key 添加成功之后，输入 ssh -T git@github.com 进行测试，如果出现以下提示证明添加成功了</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-07.png" alt=""></p>
-<p>​</p>
-</li>
-</ul>
-<h3 id="3-Node-js"><a href="#3-Node-js" class="headerlink" title="3.Node.js"></a>3.Node.js</h3><blockquote>
-<p><strong>安装Node.js</strong></p>
-</blockquote>
-<p>​    Node.js一般使用两种安装方式：</p>
-<ul>
-<li><p>通过brew安装，输入安装命令</p>
-<p><code>$ brew install node</code>最新版的node.js已经集成了npm包管理工具</p>
-<p>输入以下命令验证是否安装成功</p>
-<p><code>$ node-v</code></p>
-<p><code>$ npm-v</code></p>
-<p>如果显示相对应版本好则安装成功，如下图：</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-08.png" alt=""></p>
-</li>
-</ul>
-<p>4.Hexo</p>
-<blockquote>
-<p><strong>安装Hexo</strong></p>
-</blockquote>
-<ul>
-<li><p>输入命令</p>
-<p><code>$ npm install -g hexo-cli</code></p>
-</li>
-</ul>
-<blockquote>
-<p><strong>建站</strong></p>
-</blockquote>
-<ul>
-<li><p>输入命令</p>
-<p><code>$ hexo init &lt;folder&gt;</code></p>
-<p>Hexo会在指定文件夹中新建所需要的文件,第一次创建时不需要&lt;&gt;</p>
-</li>
-<li><p>输入命令</p>
-<p><code>$ cd &lt;floder&gt;</code></p>
-<p>进入<floder>文件</floder></p>
-<p><code>$ npm install</code></p>
-<p>安装依赖包</p>
-</li>
-</ul>
-<blockquote>
-<p><strong>本地查看</strong></p>
-</blockquote>
-<ul>
-<li><p>执行命令前确保在<folder>文件下，如果不是则输入命令</folder></p>
-<p><code>$ cd &lt;floder&gt;</code></p>
-</li>
-<li><p>输入命令</p>
-<p><code>$ hexo generate</code></p>
-<p>自动根据当前目录下文件，生成静态页</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-09.png" alt=""></p>
-</li>
-<li><p>输入命令</p>
-<p><code>$ hexo server</code></p>
-<p>运行本地服务</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-10.png" alt=""></p>
-</li>
-<li><p>打开<a href="http://localhost:4000/.就可以看到本地搭建的博客了" target="_blank" rel="external">http://localhost:4000/.就可以看到本地搭建的博客了</a></p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-11.png" alt=""></p>
-</li>
-</ul>
-<h3 id="5-部署到Github"><a href="#5-部署到Github" class="headerlink" title="5.部署到Github"></a>5.部署到Github</h3><blockquote>
-<p><strong>修改_config.yml设置</strong></p>
-</blockquote>
-<ul>
-<li><p>在hexo文件找到_config.yml，修改deploy:</p>
-<p><img src="http://og029dfuk.bkt.clouddn.com/blog1-12.png" alt=""></p>
-</li>
-<li><p>输入命令</p>
-<p><code>$ cd hexo</code></p>
-<p>查看hexo文件</p>
-<p><code>$ npm install hexo-deployer-git - -save</code></p>
-<p>安装插件</p>
-<p><code>$ hexo clean</code></p>
-<p>清除缓存</p>
-<p><code>$ hexo generate</code></p>
-<p>生成静态页面至public目录</p>
-<p><code>$ hexo deploy</code></p>
-<p>将.deploy目录部署到服务器</p>
-</li>
-</ul>
-<h3 id="6-查看username-github-io"><a href="#6-查看username-github-io" class="headerlink" title="6.查看username.github.io"></a>6.查看username.github.io</h3><pre><code>&gt; **博客创建结束**
-</code></pre><ul>
-<li>查看username.github.io就是博客部署到服务端的最终形态</li>
-<li>服务器的维护可以使用hexo命令或者github客户端</li>
-</ul>
-<blockquote>
-<p><strong>Hexo结构目录及常用命令</strong></p>
-</blockquote>
-<ul>
-<li><p>文件夹目录结构</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">source : 博客资源文件夹</div><div class="line">source/_drafts : 草稿文件夹</div><div class="line">source/_posts  : 文章文件夹</div><div class="line">themes : 存放主题的文件夹</div><div class="line">themes/landscape : 默认的主题</div><div class="line">_config.yml : 全局配置文件</div><div class="line">.deploy : 需要部署的文件</div><div class="line">node_modules : Hexo插件</div><div class="line">piblic : 生成的静态网页文件</div><div class="line">scaffolds : 模板</div></pre></td></tr></table></figure>
-</li>
-<li><p>常用命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;postname&quot; 新建文章</div><div class="line">hexo new page &quot;pagename&quot; 新建页面</div><div class="line">hexo generate 生成静态页面至public目录</div><div class="line">hexo server 开启预览访问端口</div><div class="line">hexo deploy 将.deploy目录部署到服务器</div></pre></td></tr></table></figure>
-<p>​</p>
-</li>
-</ul>
-
+<p>​    托管服务，初学可参考<a href="https://zhuanlan.zhihu.com/stormzhang?topic=GitHub">AndroidDeveloper</a>.<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的官方网站</a><br>
+        <p class="article-more-link">
+          <a class="article-more-a"  href="/2016/09/26/Mac使用Github+Hexo搭建个人博客/#more">more >></a>
+        </p>
       
     </div>
     <div class="article-info article-info-index">
@@ -365,6 +176,55 @@
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git-Github-Hexo/">Git, Github, Hexo</a></li></ul>
 	</div>
 
+      
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/25/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a><br>
+        <p class="article-more-link">
+          <a class="article-more-a"  href="/2016/09/25/hello-world/#more">more >></a>
+        </p>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/09/25/hello-world/" class="archive-article-date">
+  	<time datetime="2016-09-24T16:00:00.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-25</time>
+</a>
+      
       
 
       <div class="clearfix"></div>
